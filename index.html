@@ -1,87 +1,101 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
 <html>
-   <head> <style type = "text/css">
-       h1     {
-               font-size: 24 pt;
-               color: red;
-               text decoration: underline;
-               font-family: tahoma, helvetica, sans-serif;
-      }
-       em    {
-               font-style: normal;
-               color: red;
-               background-color: yellow;
-               font-weight: bold;
-           }
-       
-
-
-       
-   </style>
-   
-   </head>
-    <title> My Web Page </title>
-    <body>
-        <h1> <em>Hamza <br> Özer <br> 150240088 </em> </h1>
-       <anchor href="https://github.com/QlKtLe"> <img src="github_icon.png"> </anchor> 
-    <h4>Courses that I am taking </h4>
-    <p><strong>1.101E-Introduction to information Systems </strong> <br> 2.BBF 102E-Linear Algebra and Applications <br> 3.FIZ 101EL-Physics I Laboratory <br> 4.EHB 222E-Introduction to Electronics<br> 5.BLG 113E-Introduction to Computer Engineering and Ethics <br> 6.BLG 231E-Digital Circuits 
-</p>
-    </body>
-    </html>
-<html>
-    <head>
-        <title>My Web Page</title>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page - Hamza Özer</title>
+    
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <head>
-        <body>
-           <p> <strong>Introduction to Infotmation Systems <strong> 
-        <em>
-            <p> Hamza Özer 
-            <br> 150240088
-         </em>    
-        </p>
-<p> The Universe of Bees</p>        
-        <ul>
-                <li> Apis Mellifera </li>
-                <li>Agapostemon </li>
-                <li>Malictus </li>
-                <li>Colletes </li>
-                <li>Apidae </li>
+
+    <style>
+        /* type="text/css" yazmana gerek yok, varsayılan budur */
+        h1 {
+            font-size: 24pt; /* Boşluksuz yazılması daha doğrudur */
+            color: red;
+            text-decoration: underline; /* Tire eklendi */
+            font-family: tahoma, helvetica, sans-serif;
+        }
+        em {
+            font-style: normal;
+            color: red;
+            background-color: yellow;
+            font-weight: bold;
+        }
+        /* Tablo sınırlarını görmek için basit bir stil */
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        <em>Hamza <br> Özer <br> 150240088 </em>
+    </h1>
+    
+    <a href="https://github.com/QlKtLe"> 
+        <img src="github_icon.png" alt="Github Icon" width="50"> 
+    </a>
+
+    <h4>Courses that I am taking</h4>
+    <p>
+        <strong>1. 101E-Introduction to Information Systems</strong><br>
+        2. BBF 102E-Linear Algebra and Applications<br>
+        3. FIZ 101EL-Physics I Laboratory<br>
+        4. EHB 222E-Introduction to Electronics<br>
+        5. BLG 113E-Introduction to Computer Engineering and Ethics<br>
+        6. BLG 231E-Digital Circuits
+    </p>
+
+    <hr> <p>The Universe of Bees</p>
+    <ul>
+        <li>Apis Mellifera</li>
+        <li>Agapostemon</li>
+        <li>Malictus</li>
+        <li>Colletes</li>
+        <li>Apidae
             <ul>
-                <li> Bombus</li>
+                <li>Bombus</li>
             </ul>
-        </ul>
-        <h1> <strong>Bees </strong>    
-        </h1>
-        <p><img src="bees.jpg"></p>
-        <p> <a href="https://en.wikipedia.org/wiki/Bee">Click on here for more information </a>
-        </p>
-        
-        <table 
-                <tr>
-                <th>Family</th>
-                <th>Genus</th>
-            </tr>
-            <tr>
-                <td>Apidae</td>
-                <td>Apis</td>
-            </tr>
-            <tr>
-                <td>Halictidae</td>
-                <td>Agapostemon</td>
-            </tr>
-            <tr>
-                <td>Colletidae</td>
-                <td>Colletes</td>
-            </tr>
-            <tr> <td>Apidae </td>
-                <td>Bombus</td>
-        </table>    
-        <pre>           
-                                Are you a beekeeper?
-                    This web Page is for you! I hope you enjoy it.
-        </pre>
-        </body>
-    </html> 
+        </li>
+    </ul>
+
+    <h1><strong>Bees</strong></h1>
+    
+    <p><img src="bees.jpg" alt="Bees" width="200"></p>
+    
+    <p>
+        <a href="https://en.wikipedia.org/wiki/Bee">Click on here for more information</a>
+    </p>
+
+    <table>
+        <tr>
+            <th>Family</th>
+            <th>Genus</th>
+        </tr>
+        <tr>
+            <td>Apidae</td>
+            <td>Apis</td>
+        </tr>
+        <tr>
+            <td>Halictidae</td>
+            <td>Agapostemon</td>
+        </tr>
+        <tr>
+            <td>Colletidae</td>
+            <td>Colletes</td>
+        </tr>
+        <tr>
+            <td>Apidae</td>
+            <td>Bombus</td>
+        </tr>
+    </table>
+
+    <pre>           
+                        Are you a beekeeper?
+            This web Page is for you! I hope you enjoy it.
+    </pre>
+
+</body>
+</html>
