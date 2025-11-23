@@ -27,7 +27,7 @@
             padding: 1ex;
             width: 40%;
         }
-        p.centered {
+        .centered {
             text-align: center;
             text-indent: 3mm;
         }
