@@ -1,9 +1,11 @@
-<style>
-        /* type="text/css" yazmana gerek yok, varsayılan budur */
+
+        a:hover {
+            text-decoration: none;
+        }
         h1 {
-            font-size: 24pt; /* Boşluksuz yazılması daha doğrudur */
+            font-size: 24pt; 
             color: red;
-            text-decoration: underline; /* Tire eklendi */
+            text-decoration: underline; 
             font-family: tahoma, helvetica, sans-serif;
         }
         em {
@@ -12,10 +14,22 @@
             background-color: yellow;
             font-weight: bold;
         }
-        /* Tablo sınırlarını görmek için basit bir stil */
+        
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
             padding: 5px;
         }
-    </style>
+        li:first-child {
+            border: thick solid green;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            padding: 1ex;
+            width: 40%;
+        }
+        p.centered {
+            text-align: center;
+            text-indent: 3mm;
+        }
+        
+    
