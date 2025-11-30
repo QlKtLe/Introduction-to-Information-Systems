@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <title>My Web Page - Hamza Özer</title>
     
+  
     <link rel="stylesheet" type="text/css" href="deneme.css">
-
-   
 </head>
-<body onload="document.body.style.backgroundColor='pink'"
- onresize="document.body.style.backgroundColor='lightblue'">
-   <h1 class="centered">
-    <em>
-        Hamza <br> Özer <br> 150240088 
-    </em>
-</h1>
+
+<body onload="document.body.style.backgroundColor='pink'" onresize="document.body.style.backgroundColor='lightblue'">
+
+    <h1 class="centered">
+        <em onmouseover="this.style.color='orange'; this.style.backgroundColor='lightgreen'" 
+            onmouseout="this.style.color=''; this.style.backgroundColor=''">
+            Hamza <br> Özer <br> 150240088 
+        </em>
+    </h1>
+
  <p class="center-icon">
     <a href="https://github.com/QlKtLe"> 
-        <img src="github_icon.png" alt="Github Icon" width="50"> 
+        <img src="github_icon.png" alt="Github Icon" width="50" onerror="this.src='https://placehold.co/50x50?text=GH'"> 
     </a>
 </p>
     <h4>Courses that I am taking</h4>
@@ -45,7 +47,7 @@
 
     <h1><strong>Bees</strong></h1>
     
-    <p><img src="bees.jpg" alt="Bees" width="200"></p>
+    <p><img src="bees.jpg" alt="Bees" width="200" onerror="this.src='https://placehold.co/200x150?text=Bees'"></p>
     
     <p>
         <a href="https://en.wikipedia.org/wiki/Bee">Click on here for more information</a>
@@ -74,7 +76,7 @@
         </tr>
     </table>
 
-    <pre>           
+    <pre>            
                         Are you a beekeeper?
             This web Page is for you! I hope you enjoy it.
     </pre>
