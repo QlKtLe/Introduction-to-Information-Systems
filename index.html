@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Web Page - Hamza Özer</title>
+    
     <link rel="stylesheet" type="text/css" href="deneme.css">
 </head>
 
@@ -26,7 +27,8 @@
 
     <div style="text-align: center; margin: 20px;">
         Enter your name: 
-        <input type="text" id="name" onkeydown="keydownFunction()">
+        
+        <input type="text" id="name" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
     </div>
 
     <h4>Courses that I am taking</h4>
@@ -88,7 +90,7 @@
             This web Page is for you! I hope you enjoy it.
     </pre>
 
-
+   
     <script>
         function welcomeFunction() {
             alert("Welcome!");
@@ -96,6 +98,10 @@
 
         function keydownFunction() {
             document.getElementById("name").style.backgroundColor = "yellow";
+        }
+
+        function keyupFunction() {
+            document.getElementById("name").style.backgroundColor = "lightblue";
         }
     </script>
 
