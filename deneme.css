@@ -10,6 +10,14 @@ h1 {
 }
 
 
+em {
+    font-style: normal;
+    color: red !important;
+    background-color: transparent !important;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 strong {
     font-style: normal;
     color: red;
@@ -20,8 +28,8 @@ strong {
 }
 
 strong:hover {
-    color: orange;      
-    background-color: lightgreen;
+    color: orange;            
+    background-color: lightgreen; 
     cursor: pointer;
 }
 
