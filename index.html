@@ -6,11 +6,8 @@
     
     <link rel="stylesheet" type="text/css" href="deneme.css">
 </head>
-
 <body onload="document.body.style.backgroundColor='pink'; welcomeFunction()" 
-      onresize="document.body.style.backgroundColor='lightblue'"
-      onkeydown="document.body.style.backgroundColor='white'"
-      onkeyup="document.body.style.backgroundColor='lightyellow'">
+      onresize="document.body.style.backgroundColor='lightblue'">
 
     <h1 class="centered">
         <em onmouseover="this.style.color='orange'; this.style.backgroundColor='lightgreen'" 
@@ -24,10 +21,8 @@
         <img src="github_icon.png" alt="Github Icon" width="50" onerror="this.src='https://placehold.co/50x50?text=GH'"> 
     </a>
 </p>
-
     <div style="text-align: center; margin: 20px;">
         Enter your name: 
-        
         <input type="text" id="name" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
     </div>
 
@@ -90,18 +85,16 @@
             This web Page is for you! I hope you enjoy it.
     </pre>
 
-   
     <script>
         function welcomeFunction() {
             alert("Welcome!");
         }
-
         function keydownFunction() {
             document.getElementById("name").style.backgroundColor = "yellow";
         }
 
         function keyupFunction() {
-            document.getElementById("name").style.backgroundColor = "lightblue";
+            document.getElementById("name").style.backgroundColor = "light_blue";
         }
     </script>
 
