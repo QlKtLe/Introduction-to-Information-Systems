@@ -9,7 +9,8 @@ h1 {
     font-family: tahoma, helvetica, sans-serif;
 }
 
-em {
+
+strong {
     font-style: normal;
     color: red;
     background-color: yellow;
@@ -18,6 +19,11 @@ em {
     transition: all 0.3s; 
 }
 
+strong:hover {
+    color: orange;      
+    background-color: lightgreen;
+    cursor: pointer;
+}
 
 table, th, td {
     border: 1px solid black;
