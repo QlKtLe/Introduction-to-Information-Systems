@@ -1,5 +1,5 @@
-a:hover {
-    text-decoration: none;
+a:hover { 
+    text-decoration: none; 
 }
 
 h1 {
@@ -15,14 +15,9 @@ em {
     background-color: yellow;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: color 0.3s; 
+    transition: all 0.3s; 
 }
 
-
-em:hover {
-    color: orange;
-    cursor: pointer;
-}
 
 table, th, td {
     border: 1px solid black;
