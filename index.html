@@ -3,26 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>My Web Page - Hamza Özer</title>
-    
     <link rel="stylesheet" type="text/css" href="deneme.css">
 </head>
 
-<body onload="document.body.style.backgroundColor='pink'" 
+<body onload="document.body.style.backgroundColor='pink'; welcomeFunction()" 
       onresize="document.body.style.backgroundColor='lightblue'"
       onkeydown="document.body.style.backgroundColor='white'"
       onkeyup="document.body.style.backgroundColor='lightyellow'">
 
-        <script>
-            function welcomeFunction() {
-                alert("Welcome");
-                                        }
-            function keydownFunction(){
-                document.getElementById("name").style.backgorundColor = "yellow";
-            }
-        </script>
-    Enter your name: <input type="text" id="name" onkeydown="keydownFunction()">
-        <h1 class="centered">
-        
+    <h1 class="centered">
         <em onmouseover="this.style.color='orange'; this.style.backgroundColor='lightgreen'" 
             onmouseout="this.style.color=''; this.style.backgroundColor=''">
             Hamza <br> Özer <br> 150240088 
@@ -34,6 +23,12 @@
         <img src="github_icon.png" alt="Github Icon" width="50" onerror="this.src='https://placehold.co/50x50?text=GH'"> 
     </a>
 </p>
+
+    <div style="text-align: center; margin: 20px;">
+        Enter your name: 
+        <input type="text" id="name" onkeydown="keydownFunction()">
+    </div>
+
     <h4>Courses that I am taking</h4>
     <ol>
         <li>101E-Introduction to Information Systems</li>
@@ -57,7 +52,6 @@
         </li>
     </ul>
 
-    
     <h1><strong>Bees</strong></h1>
     
     <p><img src="bees.jpg" alt="Bees" width="200" onerror="this.src='https://placehold.co/200x150?text=Bees'"></p>
@@ -93,6 +87,17 @@
                         Are you a beekeeper?
             This web Page is for you! I hope you enjoy it.
     </pre>
+
+
+    <script>
+        function welcomeFunction() {
+            alert("Welcome!");
+        }
+
+        function keydownFunction() {
+            document.getElementById("name").style.backgroundColor = "yellow";
+        }
+    </script>
 
 </body>
 </html>
